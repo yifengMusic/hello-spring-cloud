@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: hello-spring-cloud-config-client
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: config-client
+      label: master
+      profile: dev
+  zipkin:
+    base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+server:
+  port: 8889
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
