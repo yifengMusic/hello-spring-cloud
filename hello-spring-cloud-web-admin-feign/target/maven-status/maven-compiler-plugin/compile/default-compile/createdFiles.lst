@@ -1,5 +1,0 @@
-com\yifeng\hello\spring\cloud\web\admin\feign\controller\AdminController.class
-com\yifeng\hello\spring\cloud\web\admin\feign\service\AdminService.class
-com\yifeng\hello\spring\cloud\web\admin\feign\service\hystrix\AdminServiceHystrix.class
-com\yifeng\hello\spring\cloud\web\admin\feign\config\HystrixDashboardConfiguration.class
-com\yifeng\hello\spring\cloud\web\admin\feign\WebAdminFeignApplication.class
